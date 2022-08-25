@@ -17,15 +17,17 @@ class MainTabBarViewController: UITabBarController {
         let searchVC = UINavigationController(rootViewController: SearchViewController())
         let downloadsVC = UINavigationController(rootViewController: DownloadsViewController())
         
-        homeVC.tabBarItem.image = UIImage(named: K.Symbols.house)
-        upcomingVC.tabBarItem.image = UIImage(named: K.Symbols.playCircle)
-        searchVC.tabBarItem.image = UIImage(named: K.Symbols.magnifyingGlass)
-        downloadsVC.tabBarItem.image = UIImage(named: K.Symbols.arrowDownToLine)
+        homeVC.tabBarItem.image = UIImage(systemName: K.Symbols.house)
+        upcomingVC.tabBarItem.image = UIImage(systemName: K.Symbols.playCircle)
+        searchVC.tabBarItem.image = UIImage(systemName: K.Symbols.magnifyingGlass)
+        downloadsVC.tabBarItem.image = UIImage(systemName: K.Symbols.arrowDownToLine)
         
         homeVC.title = K.TabbarNames.home
         upcomingVC.title = K.TabbarNames.upcoming
         searchVC.title = K.TabbarNames.search
         downloadsVC.title = K.TabbarNames.downloads
+        
+        tabBar.tintColor = .label
         
         setViewControllers([homeVC, upcomingVC, searchVC, downloadsVC], animated: true)
     }
