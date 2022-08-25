@@ -13,6 +13,13 @@ struct K{
         static let house = "house"
         static let playCircle = "play.circle"
         static let magnifyingGlass = "magnifyingglass"
-        static let downloads = "arrow.down.to.line"
+        static let arrowDownToLine = "arrow.down.to.line"
+    }
+    
+    struct TabbarNames{
+        static let home = "Home"
+        static let upcoming = "Upcoming"
+        static let search = "Search"
+        static let downloads = "Downloads"
     }
 }
