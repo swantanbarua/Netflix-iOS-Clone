@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB7E538428BB440F00FA77DC /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7E538328BB440F00FA77DC /* CollectionViewTableViewCell.swift */; };
 		CBA7266828B7DC41006AA11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7266728B7DC41006AA11C /* AppDelegate.swift */; };
 		CBA7266A28B7DC41006AA11C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7266928B7DC41006AA11C /* SceneDelegate.swift */; };
 		CBA7266C28B7DC41006AA11C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7266B28B7DC41006AA11C /* MainTabBarViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB7E538328BB440F00FA77DC /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		CBA7266428B7DC41006AA11C /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA7266728B7DC41006AA11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBA7266928B7DC41006AA11C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 		CB7E538228BB419F00FA77DC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CB7E538328BB440F00FA77DC /* CollectionViewTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				CBA7268328B7E918006AA11C /* DownloadsViewController.swift in Sources */,
 				CBA7266828B7DC41006AA11C /* AppDelegate.swift in Sources */,
 				CBA7266A28B7DC41006AA11C /* SceneDelegate.swift in Sources */,
+				CB7E538428BB440F00FA77DC /* CollectionViewTableViewCell.swift in Sources */,
 				CBA7267F28B7E8A3006AA11C /* UpcomingViewController.swift in Sources */,
 				CBA7267D28B7E85A006AA11C /* HomeViewController.swift in Sources */,
 				CBA7268528B7EA9B006AA11C /* Constants.swift in Sources */,
