@@ -22,4 +22,9 @@ struct K{
         static let search = "Search"
         static let downloads = "Downloads"
     }
+    
+    struct TableView{
+        static let cell: String = "cell"
+        static let collectionViewTableViewCell: String = "CollectionViewTableViewCell"
+    }
 }

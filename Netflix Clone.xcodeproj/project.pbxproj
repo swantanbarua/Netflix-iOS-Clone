@@ -45,6 +45,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB7E537E28BB417000FA77DC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CB7E537F28BB417E00FA77DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB7E538028BB418700FA77DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CB7E538128BB419500FA77DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CB7E538228BB419F00FA77DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CBA7265B28B7DC41006AA11C = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +99,11 @@
 		CBA7266628B7DC41006AA11C /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				CB7E537E28BB417000FA77DC /* Managers */,
+				CB7E537F28BB417E00FA77DC /* Resources */,
+				CB7E538028BB418700FA77DC /* Models */,
+				CB7E538228BB419F00FA77DC /* Views */,
+				CB7E538128BB419500FA77DC /* ViewModels */,
 				CBA7266728B7DC41006AA11C /* AppDelegate.swift */,
 				CBA7266928B7DC41006AA11C /* SceneDelegate.swift */,
 				CBA7266B28B7DC41006AA11C /* MainTabBarViewController.swift */,
