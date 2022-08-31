@@ -16,6 +16,10 @@ struct K{
         static let arrowDownToLine: String = "arrow.down.to.line"
     }
     
+    struct ShowNames{
+        static let dark: String = "dark"
+    }
+    
     struct TabbarNames{
         static let home: String = "Home"
         static let upcoming: String = "Upcoming"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB1B035028BF340C00F1D0AE /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1B034F28BF340C00F1D0AE /* HeroHeaderUIView.swift */; };
 		CB7E538428BB440F00FA77DC /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7E538328BB440F00FA77DC /* CollectionViewTableViewCell.swift */; };
 		CBA7266828B7DC41006AA11C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7266728B7DC41006AA11C /* AppDelegate.swift */; };
 		CBA7266A28B7DC41006AA11C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7266928B7DC41006AA11C /* SceneDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB1B034F28BF340C00F1D0AE /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		CB7E538328BB440F00FA77DC /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		CBA7266428B7DC41006AA11C /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA7266728B7DC41006AA11C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7E538328BB440F00FA77DC /* CollectionViewTableViewCell.swift */,
+				CB1B034F28BF340C00F1D0AE /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA7268128B7E8D8006AA11C /* SearchViewController.swift in Sources */,
+				CB1B035028BF340C00F1D0AE /* HeroHeaderUIView.swift in Sources */,
 				CBA7266C28B7DC41006AA11C /* MainTabBarViewController.swift in Sources */,
 				CBA7268328B7E918006AA11C /* DownloadsViewController.swift in Sources */,
 				CBA7266828B7DC41006AA11C /* AppDelegate.swift in Sources */,
