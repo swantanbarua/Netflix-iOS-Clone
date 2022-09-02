@@ -14,9 +14,12 @@ struct K{
         static let playCircle: String = "play.circle"
         static let magnifyingGlass: String = "magnifyingglass"
         static let arrowDownToLine: String = "arrow.down.to.line"
+        static let person: String = "person"
+        static let playRectangle: String = "play.rectangle"
     }
     
     struct ShowNames{
+        static let netflix: String = "netflix"
         static let dark: String = "dark"
     }
     
