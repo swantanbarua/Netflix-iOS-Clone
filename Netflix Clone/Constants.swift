@@ -23,6 +23,14 @@ struct K{
         static let dark: String = "dark"
     }
     
+    struct SectionTitles{
+        static let trendingMovies: String = "Trending Movies"
+        static let popular: String = "Popular"
+        static let trendingTV: String = "Trending TV"
+        static let upcomingMovies: String = "Upcoming Movies"
+        static let topRated: String = "Top Rated"
+    }
+    
     struct TabbarNames{
         static let home: String = "Home"
         static let upcoming: String = "Upcoming"
