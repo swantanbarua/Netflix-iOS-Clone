@@ -33,6 +33,7 @@ class HomeViewController: UIViewController {
         configureNavbar()
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 400))
         homeFeedTable.tableHeaderView = headerView
+        getTrendingMovies()
     }
     
     private func configureNavbar(){
@@ -44,6 +45,17 @@ class HomeViewController: UIViewController {
             UIBarButtonItem(image: UIImage(systemName: K.Symbols.playRectangle), style: .done, target: self, action: nil)
         ]
         navigationController?.navigationBar.tintColor = .white
+    }
+    
+    private func getTrendingMovies(){
+        APICaller.shared.getTrendingMovies{ results in
+            switch results{
+            case .success(let movies):
+                print(movies)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
     
     override func viewDidLayoutSubviews(){

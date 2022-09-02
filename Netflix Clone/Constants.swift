@@ -42,4 +42,9 @@ struct K{
         static let cell: String = "cell"
         static let collectionViewTableViewCell: String = "CollectionViewTableViewCell"
     }
+    
+    struct APICalls{
+        static let API_KEY = "4474ce81df07c365733c5e9d8197b2f5"
+        static let baseURL = "https://api.themoviedb.org"
+    }
 }
