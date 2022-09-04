@@ -11,8 +11,8 @@ class HomeViewController: UIViewController {
     
     let sectionTitles: [String] = [
         K.SectionTitles.trendingMovies,
-        K.SectionTitles.popular,
         K.SectionTitles.trendingTV,
+        K.SectionTitles.popular,
         K.SectionTitles.upcomingMovies,
         K.SectionTitles.topRated
     ]
