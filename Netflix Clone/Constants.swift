@@ -41,6 +41,7 @@ struct K{
     struct TableAndCollectionView{
         static let cell: String = "cell"
         static let collectionViewTableViewCell: String = "CollectionViewTableViewCell"
+        static let titleCollectionViewCell: String = "TitleCollectionViewCell"
     }
     
     struct APICalls{
